@@ -6,7 +6,6 @@
 		"build": "typedoc && next build",
 		"dev": "next dev",
 		"start": "next start",
-		"postinstall": "fumadocs-mdx",
 		"prettier:check": "prettier -c --ignore-unknown .",
 		"prettier:fix": "prettier -w --ignore-unknown .",
 		"eslint:check": "eslint --max-warnings=0 .",
