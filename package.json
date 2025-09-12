@@ -13,8 +13,7 @@
 		"eslint:fix": "pnpm run eslint:check --fix",
 		"lint": "pnpm run eslint:check && pnpm run prettier:check",
 		"lint:fix": "pnpm run eslint:fix && pnpm run prettier:fix",
-		"build": "turbo run build",
-		"build:local": "turbo run build --filter=@mysten/sui --filter=@mysten/utils --filter=@mysten/wallet-standard --filter=@mysten/walletconnect-wallet"
+		"build": "turbo run build --filter=@mysten/sui --filter=@mysten/utils --filter=@mysten/wallet-standard --filter=@mysten/walletconnect-wallet"
 	},
 	"pnpm": {
 		"overrides": {
